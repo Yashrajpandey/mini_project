@@ -1,0 +1,32 @@
+.btn-success{
+    font-size: 14px;
+    border-radius: 30px;
+    background: #004369;border-color: #000000;
+    
+}
+.btn-success:hover{
+    background-color: black;
+}
+
+.navbar{
+    border-radius: 0 0 87px 87px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.container-fluid{
+    padding-right: var(--bs-gutter-x,2.75rem);
+    padding-left: var(--bs-gutter-x,5.75rem);
+}
+.pic{
+    width: 48px;
+    height: 41px;
+    padding-right: 6px;
+    margin-right: 6px;
+}
+.navbar-brand{
+
+    
+}
+body{
+    background-color: #9AD0EC;
+}
