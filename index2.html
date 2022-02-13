@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
     <meta charset="UTF-8">
+     <!-- Google Fonts -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
    <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -13,11 +16,14 @@
 </head>
 
 <body>
+  
+  <section class="section_1" id="title">
     <!-- NAVBAR --> 
+    <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #1572A1;">
         <div class="container-fluid">
             <img class="pic"       
-       src="delivery-man (1).png">
+       src="pic/delivery-man (1).png">
           <a class="navbar-brand  "  href="#">MINI</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,24 +31,17 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link " aria-current="page" href="#title">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#download_1">Download</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              
+              <li class="nav-item">
+                <a class="nav-link " href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link " href="#footer">Contact</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -53,8 +52,124 @@
         </div>
       </nav>
 
+
+       <!-- Title -->
+       
+    <div class="row">
+<div class="col-lg-6">
+  <h3 class="text-up">YOUR OWN </h3>
+  <h1 class="big-heading">DELIVERY SERVICE</h1>
+  <h3 class="text-down">GUY</h3>
+  <img class=" pic_2" src="pic/delivery-boy.png">
+  <img class="pic_3" src="pic/line.png" >
+</div>
+
+</div>
       
 
     
+  </div>
+  </section>
+
+  <!-- features -->
+  <section class="sec_2" id="features">
+    <div class="container px-4 py-5" id="custom-cards">
+      
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4  ">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg card_1" style="background-image: url('pic/foodora-gf1528975d_1920.jpeg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" >FOOD DELIVERY</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="pic/delivery-man.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg card_2" style="background-image: url('pic/scooter-g3aa43628e_1920.jpeg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" >PICK AND DROP</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="pic/delivery-man.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg card_3" style="background-image: url('pic/supermarket-g207a37bae_1920.jpeg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">GROCERIES AND ESSENTIALS </h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="pic/delivery-man.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                </li>
+               
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col lastcol">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg card_4" style="background-image: url('pic/network-gfa292b2ee_1920.jpeg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" >ACROSS CITY</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="pic/delivery-man.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                </li>
+                
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </section>
+
+  <!-- contact us-->
+<section class="sec_3" id="download_1">
+
+  <div class="container-fluid last">
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h3 class="lwr heading_l">NOW DELIVERY AT YOUR</h3>
+        <h1 class="lwr_1 heading_l">FINGER TIPS</h1>
+        <div class="col-lg-6"> <img class=" pic_4" src="pic/delivery-bike.png">
+          <button class="download-button btn btn-lg btn-dark btn_1" type="button"><i class="fab fa-apple"></i> Download</button>
+          <button class="download-button btn btn-lg brn-light btn_2 " type="button"><i class="fab fa-google-play"></i> Download</button></div>
+       
+       
+      </div>
+      
+      </div>
+            
+
+  </div>
+</section>
+  <!-- Footer -->
+
+  <footer class="last_sec" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2018 MINI</p>
+    </div>
+  </footer>
+
+  
+
 </body>
 </html>
